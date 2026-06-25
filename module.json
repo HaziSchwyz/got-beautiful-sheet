@@ -7,13 +7,13 @@
       "name": "Iu"
     }
   ],
-  "version": "0.3.1-v13-hotfix",
+  "version": "0.3.2-worldbuilding-hotfix",
   "compatibility": {
     "minimum": "12",
     "verified": "13"
   },
   "manifest": "https://raw.githubusercontent.com/HaziSchwyz/got-beautiful-sheet/main/module.json",
-  "download": "https://github.com/HaziSchwyz/got-beautiful-sheet/releases/download/v0.3.1-v13-hotfix/got-beautiful-sheet.zip",
+  "download": "https://github.com/HaziSchwyz/got-beautiful-sheet/releases/download/v0.3.2-worldbuilding-hotfix/got-beautiful-sheet.zip",
   "documentTypes": {
     "Actor": {
       "character": {
@@ -49,6 +49,11 @@
         "htmlFields": [
           "description"
         ]
+      },
+      "equippableItem": {
+        "htmlFields": [
+          "description"
+        ]
       }
     }
   },
@@ -57,43 +62,37 @@
       "name": "qualidades-got",
       "label": "Qualidades GOT",
       "path": "packs/qualidades-got",
-      "type": "Item",
-      "system": "custom-system-builder"
+      "type": "Item"
     },
     {
       "name": "defeitos-got",
       "label": "Defeitos GOT",
       "path": "packs/defeitos-got",
-      "type": "Item",
-      "system": "custom-system-builder"
+      "type": "Item"
     },
     {
       "name": "armas-got",
       "label": "Armas GOT",
       "path": "packs/armas-got",
-      "type": "Item",
-      "system": "custom-system-builder"
+      "type": "Item"
     },
     {
       "name": "qualidades-armas-got",
       "label": "Qualidades de Arma GOT",
       "path": "packs/qualidades-armas-got",
-      "type": "Item",
-      "system": "custom-system-builder"
+      "type": "Item"
     },
     {
       "name": "got-armors",
       "label": "Armaduras GOT",
       "path": "packs/armors",
-      "type": "Item",
-      "system": "custom-system-builder"
+      "type": "Item"
     },
     {
       "name": "dragon-visuals-got",
       "label": "Visuais de Dragão GOT",
       "path": "packs/dragon-visuals",
-      "type": "Item",
-      "system": "custom-system-builder"
+      "type": "Item"
     }
   ],
   "esmodules": [
@@ -118,17 +117,5 @@
       "name": "Português (Brasil)",
       "path": "lang/pt-BR.json"
     }
-  ],
-  "relationships": {
-    "requires": [
-      {
-        "id": "custom-system-builder",
-        "type": "system",
-        "compatibility": {
-          "minimum": "4",
-          "verified": "4"
-        }
-      }
-    ]
-  }
+  ]
 }
