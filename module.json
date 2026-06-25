@@ -7,13 +7,13 @@
                         "name":  "Iu"
                     }
                 ],
-    "version":  "0.3.3-worldbuilding-packs",
+    "version":  "0.3.4-bom-fix",
     "compatibility":  {
                           "minimum":  "12",
                           "verified":  "13"
                       },
     "manifest":  "https://raw.githubusercontent.com/HaziSchwyz/got-beautiful-sheet/main/module.json",
-    "download":  "https://github.com/HaziSchwyz/got-beautiful-sheet/releases/download/v0.3.3-worldbuilding-packs/got-beautiful-sheet.zip",
+    "download":  "https://github.com/HaziSchwyz/got-beautiful-sheet/releases/download/v0.3.4-bom-fix/got-beautiful-sheet.zip",
     "documentTypes":  {
                           "Actor":  {
                                         "character":  {
