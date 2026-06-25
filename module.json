@@ -1,121 +1,127 @@
 {
-  "id": "got-beautiful-sheet",
-  "title": "GOT Beautiful Sheet",
-  "description": "Ficha alternativa bonita e modular para Guerra dos Tronos RPG. Inclui Dossiê Dracônico, ficha de personagem GOT, compêndios, automações e visuais personalizados.",
-  "authors": [
-    {
-      "name": "Iu"
-    }
-  ],
-  "version": "0.3.2-worldbuilding-hotfix",
-  "compatibility": {
-    "minimum": "12",
-    "verified": "13"
-  },
-  "manifest": "https://raw.githubusercontent.com/HaziSchwyz/got-beautiful-sheet/main/module.json",
-  "download": "https://github.com/HaziSchwyz/got-beautiful-sheet/releases/download/v0.3.2-worldbuilding-hotfix/got-beautiful-sheet.zip",
-  "documentTypes": {
-    "Actor": {
-      "character": {
-        "htmlFields": [
-          "notes",
-          "description"
-        ],
-        "filePathFields": {
-          "img": [
-            "IMAGE"
-          ]
-        }
-      },
-      "dragon": {
-        "htmlFields": [
-          "notes",
-          "description"
-        ],
-        "filePathFields": {
-          "img": [
-            "IMAGE"
-          ]
-        }
-      }
-    },
-    "Item": {
-      "quality": {
-        "htmlFields": [
-          "description"
-        ]
-      },
-      "defect": {
-        "htmlFields": [
-          "description"
-        ]
-      },
-      "equippableItem": {
-        "htmlFields": [
-          "description"
-        ]
-      }
-    }
-  },
-  "packs": [
-    {
-      "name": "qualidades-got",
-      "label": "Qualidades GOT",
-      "path": "packs/qualidades-got",
-      "type": "Item"
-    },
-    {
-      "name": "defeitos-got",
-      "label": "Defeitos GOT",
-      "path": "packs/defeitos-got",
-      "type": "Item"
-    },
-    {
-      "name": "armas-got",
-      "label": "Armas GOT",
-      "path": "packs/armas-got",
-      "type": "Item"
-    },
-    {
-      "name": "qualidades-armas-got",
-      "label": "Qualidades de Arma GOT",
-      "path": "packs/qualidades-armas-got",
-      "type": "Item"
-    },
-    {
-      "name": "got-armors",
-      "label": "Armaduras GOT",
-      "path": "packs/armors",
-      "type": "Item"
-    },
-    {
-      "name": "dragon-visuals-got",
-      "label": "Visuais de Dragão GOT",
-      "path": "packs/dragon-visuals",
-      "type": "Item"
-    }
-  ],
-  "esmodules": [
-    "scripts/main.js"
-  ],
-  "styles": [
-    "styles/got-beautiful-sheet.css",
-    "styles/got-file-picker.css",
-    "styles/got-dragon-cover-fixes.css",
-    "styles/got-character-visual-fixes.css",
-    "styles/got-character-derived-layout.css",
-    "styles/got-character-themes.css"
-  ],
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "lang/en.json"
-    },
-    {
-      "lang": "pt-BR",
-      "name": "Português (Brasil)",
-      "path": "lang/pt-BR.json"
-    }
-  ]
+    "id":  "got-beautiful-sheet",
+    "title":  "GOT Beautiful Sheet",
+    "description":  "Ficha alternativa bonita e modular para Guerra dos Tronos RPG. Inclui DossiÃª DracÃ´nico, ficha de personagem GOT, compÃªndios, automaÃ§Ãµes e visuais personalizados.",
+    "authors":  [
+                    {
+                        "name":  "Iu"
+                    }
+                ],
+    "version":  "0.3.3-worldbuilding-packs",
+    "compatibility":  {
+                          "minimum":  "12",
+                          "verified":  "13"
+                      },
+    "manifest":  "https://raw.githubusercontent.com/HaziSchwyz/got-beautiful-sheet/main/module.json",
+    "download":  "https://github.com/HaziSchwyz/got-beautiful-sheet/releases/download/v0.3.3-worldbuilding-packs/got-beautiful-sheet.zip",
+    "documentTypes":  {
+                          "Actor":  {
+                                        "character":  {
+                                                          "htmlFields":  [
+                                                                             "notes",
+                                                                             "description"
+                                                                         ],
+                                                          "filePathFields":  {
+                                                                                 "img":  [
+                                                                                             "IMAGE"
+                                                                                         ]
+                                                                             }
+                                                      },
+                                        "dragon":  {
+                                                       "htmlFields":  [
+                                                                          "notes",
+                                                                          "description"
+                                                                      ],
+                                                       "filePathFields":  {
+                                                                              "img":  [
+                                                                                          "IMAGE"
+                                                                                      ]
+                                                                          }
+                                                   }
+                                    },
+                          "Item":  {
+                                       "quality":  {
+                                                       "htmlFields":  [
+                                                                          "description"
+                                                                      ]
+                                                   },
+                                       "defect":  {
+                                                      "htmlFields":  [
+                                                                         "description"
+                                                                     ]
+                                                  },
+                                       "equippableItem":  {
+                                                              "htmlFields":  [
+                                                                                 "description"
+                                                                             ]
+                                                          }
+                                   }
+                      },
+    "packs":  [
+                  {
+                      "name":  "qualidades-got",
+                      "label":  "Qualidades GOT",
+                      "path":  "packs/qualidades-got",
+                      "type":  "Item",
+                      "system":  "worldbuilding"
+                  },
+                  {
+                      "name":  "defeitos-got",
+                      "label":  "Defeitos GOT",
+                      "path":  "packs/defeitos-got",
+                      "type":  "Item",
+                      "system":  "worldbuilding"
+                  },
+                  {
+                      "name":  "armas-got",
+                      "label":  "Armas GOT",
+                      "path":  "packs/armas-got",
+                      "type":  "Item",
+                      "system":  "worldbuilding"
+                  },
+                  {
+                      "name":  "qualidades-armas-got",
+                      "label":  "Qualidades de Arma GOT",
+                      "path":  "packs/qualidades-armas-got",
+                      "type":  "Item",
+                      "system":  "worldbuilding"
+                  },
+                  {
+                      "name":  "got-armors",
+                      "label":  "Armaduras GOT",
+                      "path":  "packs/armors",
+                      "type":  "Item",
+                      "system":  "worldbuilding"
+                  },
+                  {
+                      "name":  "dragon-visuals-got",
+                      "label":  "Visuais de DragÃ£o GOT",
+                      "path":  "packs/dragon-visuals",
+                      "type":  "Item",
+                      "system":  "worldbuilding"
+                  }
+              ],
+    "esmodules":  [
+                      "scripts/main.js"
+                  ],
+    "styles":  [
+                   "styles/got-beautiful-sheet.css",
+                   "styles/got-file-picker.css",
+                   "styles/got-dragon-cover-fixes.css",
+                   "styles/got-character-visual-fixes.css",
+                   "styles/got-character-derived-layout.css",
+                   "styles/got-character-themes.css"
+               ],
+    "languages":  [
+                      {
+                          "lang":  "en",
+                          "name":  "English",
+                          "path":  "lang/en.json"
+                      },
+                      {
+                          "lang":  "pt-BR",
+                          "name":  "PortuguÃªs (Brasil)",
+                          "path":  "lang/pt-BR.json"
+                      }
+                  ]
 }
