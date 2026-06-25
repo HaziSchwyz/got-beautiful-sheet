@@ -1,122 +1,134 @@
 {
-"id": "got-beautiful-sheet",
-"title": "GOT Beautiful Sheet",
-"description": "Ficha alternativa bonita e modular para Guerra dos Tronos RPG. Inclui Dossiê Dracônico, ficha de personagem GOT, compêndios, automações e visuais personalizados.",
-"authors": [
-{
-"name": "Iu"
-}
-],
-"version": "0.3.0-v13-test",
-"compatibility": {
-"minimum": "12",
-"verified": "13"
-},
-"manifest": "https://raw.githubusercontent.com/HaziSchwyz/got-beautiful-sheet/main/module.json",
-"download": "https://github.com/HaziSchwyz/got-beautiful-sheet/releases/download/v0.3.0-v13-test/got-beautiful-sheet.zip",
-"documentTypes": {
-"Actor": {
-"character": {
-"htmlFields": [
-"notes",
-"description"
-],
-"filePathFields": {
-"img": [
-"IMAGE"
-]
-}
-},
-"dragon": {
-"htmlFields": [
-"notes",
-"description"
-],
-"filePathFields": {
-"img": [
-"IMAGE"
-]
-}
-}
-},
-"Item": {
-"quality": {
-"htmlFields": [
-"description"
-]
-},
-"defect": {
-"htmlFields": [
-"description"
-]
-}
-}
-},
-"packs": [
-{
-"name": "qualidades-got",
-"label": "Qualidades GOT",
-"path": "packs/qualidades-got",
-"type": "Item",
-"system": "custom-system-builder"
-},
-{
-"name": "defeitos-got",
-"label": "Defeitos GOT",
-"path": "packs/defeitos-got",
-"type": "Item",
-"system": "custom-system-builder"
-},
-{
-"name": "armas-got",
-"label": "Armas GOT",
-"path": "packs/armas-got",
-"type": "Item",
-"system": "custom-system-builder"
-},
-{
-"name": "qualidades-armas-got",
-"label": "Qualidades de Arma GOT",
-"path": "packs/qualidades-armas-got",
-"type": "Item",
-"system": "custom-system-builder"
-},
-{
-"name": "got-armors",
-"label": "Armaduras GOT",
-"path": "packs/armors",
-"type": "Item",
-"system": "custom-system-builder"
-},
-{
-"name": "dragon-visuals-got",
-"label": "Visuais de Dragão GOT",
-"path": "packs/dragon-visuals",
-"type": "Item",
-"system": "custom-system-builder"
-}
-],
-"esmodules": [
-"scripts/main.js"
-],
-"styles": [
-"styles/got-beautiful-sheet.css",
-"styles/got-file-picker.css",
-"styles/got-dragon-cover-fixes.css",
-"styles/got-character-visual-fixes.css",
-"styles/got-character-derived-layout.css",
-"styles/got-character-themes.css"
-],
-"languages": [
-{
-"lang": "en",
-"name": "English",
-"path": "lang/en.json"
-},
-{
-"lang": "pt-BR",
-"name": "Português (Brasil)",
-"path": "lang/pt-BR.json"
-}
-]
+  "id": "got-beautiful-sheet",
+  "title": "GOT Beautiful Sheet",
+  "description": "Ficha alternativa bonita e modular para Guerra dos Tronos RPG. Inclui Dossiê Dracônico, ficha de personagem GOT, compêndios, automações e visuais personalizados.",
+  "authors": [
+    {
+      "name": "Iu"
+    }
+  ],
+  "version": "0.3.1-v13-hotfix",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13"
+  },
+  "manifest": "https://raw.githubusercontent.com/HaziSchwyz/got-beautiful-sheet/main/module.json",
+  "download": "https://github.com/HaziSchwyz/got-beautiful-sheet/releases/download/v0.3.1-v13-hotfix/got-beautiful-sheet.zip",
+  "documentTypes": {
+    "Actor": {
+      "character": {
+        "htmlFields": [
+          "notes",
+          "description"
+        ],
+        "filePathFields": {
+          "img": [
+            "IMAGE"
+          ]
+        }
+      },
+      "dragon": {
+        "htmlFields": [
+          "notes",
+          "description"
+        ],
+        "filePathFields": {
+          "img": [
+            "IMAGE"
+          ]
+        }
+      }
+    },
+    "Item": {
+      "quality": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "defect": {
+        "htmlFields": [
+          "description"
+        ]
+      }
+    }
+  },
+  "packs": [
+    {
+      "name": "qualidades-got",
+      "label": "Qualidades GOT",
+      "path": "packs/qualidades-got",
+      "type": "Item",
+      "system": "custom-system-builder"
+    },
+    {
+      "name": "defeitos-got",
+      "label": "Defeitos GOT",
+      "path": "packs/defeitos-got",
+      "type": "Item",
+      "system": "custom-system-builder"
+    },
+    {
+      "name": "armas-got",
+      "label": "Armas GOT",
+      "path": "packs/armas-got",
+      "type": "Item",
+      "system": "custom-system-builder"
+    },
+    {
+      "name": "qualidades-armas-got",
+      "label": "Qualidades de Arma GOT",
+      "path": "packs/qualidades-armas-got",
+      "type": "Item",
+      "system": "custom-system-builder"
+    },
+    {
+      "name": "got-armors",
+      "label": "Armaduras GOT",
+      "path": "packs/armors",
+      "type": "Item",
+      "system": "custom-system-builder"
+    },
+    {
+      "name": "dragon-visuals-got",
+      "label": "Visuais de Dragão GOT",
+      "path": "packs/dragon-visuals",
+      "type": "Item",
+      "system": "custom-system-builder"
+    }
+  ],
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "styles": [
+    "styles/got-beautiful-sheet.css",
+    "styles/got-file-picker.css",
+    "styles/got-dragon-cover-fixes.css",
+    "styles/got-character-visual-fixes.css",
+    "styles/got-character-derived-layout.css",
+    "styles/got-character-themes.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "lang/pt-BR.json"
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "custom-system-builder",
+        "type": "system",
+        "compatibility": {
+          "minimum": "4",
+          "verified": "4"
+        }
+      }
+    ]
+  }
 }
